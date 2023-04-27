@@ -1,6 +1,6 @@
 {
     "name": "floridaman963/openai",
-    "description": "for test,the origin from  penai-php/client",
+    "description": "Just for a test,the origin is from Openai-php/client",
     "keywords": ["php", "openai"],
     "license": "MIT",
     "require": {

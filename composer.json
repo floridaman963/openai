@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "floridaman963\\OpenAI\\": "src/"
+            "Floridaman963\\OpenAI\\": "src/"
         },
         "files": [
             "src/OpenAI.php"

@@ -1,6 +1,11 @@
 <?php
+require '/vendor/autoload.php';
 
-$yourApiKey = getenv('YOUR_API_KEY');
+
+$yourApiKey = trim(file_get_contents('./key.txt'));
+
+var_dump($yourApiKey);
+ 
 $client = OpenAI::client($yourApiKey);
 
 $result = $client->completions()->create([
@@ -8,4 +13,6 @@ $result = $client->completions()->create([
     'prompt' => 'PHP is',
 ]);
 
-echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.
+var_dump($result);
+
+//echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.

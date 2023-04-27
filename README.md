@@ -38,7 +38,7 @@
 First, install OpenAI via the [Composer](https://getcomposer.org/) package manager:
 
 ```bash
-composer require openai-php/client
+composer require floridaman963/openai
 ```
 
 Ensure that the `php-http/discovery` composer plugin is allowed to run or install a client manually if your project does not already have a PSR-18 client integrated.
